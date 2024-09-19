@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "CairoBlack";
+    src: url(./assets/fonts/Cairo/Cairo-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "CairoBold";
+    src: url(./assets/fonts/Cairo/Cairo-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "CairoExtraBold";
+    src: url(./assets/fonts/Cairo/Cairo-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "CairoExtraLight";
+    src: url(./assets/fonts/Cairo/Cairo-ExtraLight.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "CairoLight";
+    src: url(./assets/fonts/Cairo/Cairo-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "CairoMedium";
+    src: url(./assets/fonts/Cairo/Cairo-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "CairoRegular";
+    src: url(./assets/fonts/Cairo/Cairo-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "CairoSemiBold";
+    src: url(./assets/fonts/Cairo/Cairo-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "CairoVariable";
+    src: url(./assets/fonts/Cairo/Cairo-VariableFont.ttf) format('truetype');
+}

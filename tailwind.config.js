@@ -2,7 +2,25 @@
 export default {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				primary: "#090B1A",
+				secondary: "#33E4EA",
+				tertiary: "#D9D9D9",
+				extra: "#353849",
+			},
+			fontFamily: {
+				cairoblack: ["CairoBlack", "sans-serif"],
+				cairobold: ["CairoBold", "sans-serif"],
+				cairoextrabold: ["CairoExtraBold", "sans-serif"],
+				cairoextralight: ["CairoExtraLight", "sans-serif"],
+				cairolight: ["CairoLight", "sans-serif"],
+				cairomedium: ["CairoMedium", "sans-serif"],
+				cairoregular: ["CairoRegular", "sans-serif"],
+				cairosemibold: ["CairoSemiBold", "sans-serif"],
+				cairovariable: ["CairoVariable", "sans-serif"],
+			},
+		},
 	},
 	plugins: [],
 };
