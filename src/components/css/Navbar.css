@@ -1,0 +1,24 @@
+/* styles.css */
+.hover-border {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.hover-border::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #33E4EA;
+    transition: width 0.2s ease-in-out;
+    transform: translateX(-50%);
+    margin-top: 100px;
+}
+
+.hover-border:hover::after {
+    width: 100%;
+}

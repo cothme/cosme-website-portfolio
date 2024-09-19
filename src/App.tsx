@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainLayout from "./components/layout/MainLayout";
-import { Hero } from "./components/intro/Hero";
+import { Hero } from "./components/Hero";
 
 function App() {
 	useEffect(() => {

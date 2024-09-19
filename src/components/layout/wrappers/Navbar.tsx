@@ -1,3 +1,60 @@
+import { useState } from "react";
+import Logo from "../../../assets/images/dg-logo.png";
+import { motion } from "framer-motion";
+import { AnimatedHamburgerButton } from "../../buttons/AnimatedHamburgerButton";
+import "../../css/Navbar.css";
 export const Navbar = () => {
-	return <div className="bg-primary">Navbar</div>;
+	const [navbar, setNavbar] = useState(false);
+
+	const changeNavbackground = () => {
+		if (window.scrollY >= 80) {
+			setNavbar(true);
+		} else {
+			setNavbar(false);
+		}
+	};
+
+	window.addEventListener("scroll", changeNavbackground);
+
+	return (
+		<header
+			className={`sticky ${
+				navbar ? "bg-[#0A0F3D]" : "bg-transparent"
+			} top-0 z-50 bg-primary text-tertiary transition duration-300`}
+		>
+			<nav className="h-[102px] flex items-center justify-between px-6 md:px-10">
+				{/* Logo and Brand */}
+				<div className="flex items-center gap-4">
+					<a href="/">
+						<img
+							src={Logo}
+							alt="Dencel Cosme Logo"
+							className="w-auto"
+						/>
+					</a>
+
+					<span className="font-cairobold text-2xl">Dencel Cosme</span>
+				</div>
+
+				{/* Navigation Links */}
+				<ul className="hidden md:flex flex-row space-x-6 font-cairobold text-lg">
+					<motion.a className="hover-border">Home</motion.a>
+					<motion.a className="hover-border">Work</motion.a>
+					<motion.a
+						onClick={() =>
+							document
+								.getElementById("last")
+								?.scrollIntoView({ behavior: "smooth" })
+						}
+						className="hover-border"
+					>
+						About
+					</motion.a>
+				</ul>
+				<div className="block lg:hidden md:hidden">
+					<AnimatedHamburgerButton />
+				</div>
+			</nav>
+		</header>
+	);
 };
