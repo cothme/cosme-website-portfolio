@@ -36,7 +36,12 @@ export const Navbar = () => {
 
 				{/* Navigation Links */}
 				<ul className="hidden md:flex flex-row space-x-6 font-cairobold text-lg text-white">
-					<motion.a className="hover-border">Home</motion.a>
+					<motion.a
+						href="#top"
+						className="hover-border"
+					>
+						Home
+					</motion.a>
 					<motion.a className="hover-border">Work</motion.a>
 					<motion.a
 						onClick={() =>
