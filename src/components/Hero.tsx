@@ -4,23 +4,22 @@ import Cothme from "../assets/images/cothme.png";
 import { Tooltip } from "react-tooltip";
 import { PiReadCvLogoFill } from "react-icons/pi";
 import CV from "../assets/Cosme_CV.pdf";
+import "./css/Hero.css";
 export const Hero = () => {
 	return (
 		<>
-			<div className="flex flex-col lg:flex-row lg:space-y-0 space-y-20 lg:space-x-40 text-tertiary pt-5 lg:pt-20">
-				<div>
+			<div className="flex flex-col items-center md:flex-row lg:flex-row lg:space-y-0 space-y-20 justify-center text-tertiary pt-5 lg:pt-20 mb-48 lg:mb-64">
+				<div className="flex flex-col justify-center item">
 					<div className="flex items-center pl-10">
-						<div className="hidden lg:block text-secondary mt-8 mx-8">
-							______
-						</div>
-						<div className="flex flex-col px-4">
-							<h1 className="text-secondary text-start text-2xl leading-relaxed font-cairovariable">
+						<div className="hidden lg:block text-secondary mx-8">______</div>
+						<div>
+							<h1 className="text-secondary text-start text-xl  lg:text-3xl leading-relaxed font-cairovariable">
 								Hi, my name is
 							</h1>
-							<h2 className="text-6xl font-bold pb-1 text-white font-cairobold">
+							<h2 className="text-5xl lg:text-7xl font-bold pb-1 text-white font-cairobold">
 								Dencel
 							</h2>
-							<p className="text-start text-xl max-w-lg font-cairoregular">
+							<p className="text-lg text-start lg:text-2xl max-w-lg font-cairoregular">
 								A highly motivated Information Technology graduate with
 								practical experience in web development, aspiring to become a
 								full stack developer.
@@ -28,10 +27,10 @@ export const Hero = () => {
 						</div>
 					</div>
 					<div className="flex flex-col">
-						<div className="flex justify-center lg:justify-start text-secondary lg:ml-40 mt-4">
+						<div className="flex justify-center lg:justify-start text-secondary lg:ml-36 mt-4">
 							___________________________________
 						</div>
-						<div className="flex flex-row space-x-6 justify-center lg:justify-start lg:ml-40 mt-4">
+						<div className="flex flex-row space-x-6 justify-center lg:justify-start lg:ml-36 mt-4">
 							<a
 								href="https://github.com/cothme"
 								target="_blank"
@@ -71,7 +70,7 @@ export const Hero = () => {
 						</div>
 					</div>
 				</div>
-				<div className="w-[75%] lg:w-[40%]">
+				<div className="w-[100%] lg:w-[40%]">
 					<img
 						src={Cothme}
 						alt="Dencel Cosme"

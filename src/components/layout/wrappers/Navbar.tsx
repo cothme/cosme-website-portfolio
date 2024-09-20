@@ -19,13 +19,13 @@ export const Navbar = () => {
 	return (
 		<header
 			className={`sticky ${
-				navbar ? "bg-[#0A0F3D]" : "bg-transparent"
+				navbar ? "bg-primary bg-opacity-50 backdrop-blur-2xl" : "bg-opacity-10"
 			} top-0 z-50 bg-primary text-tertiary transition duration-300`}
 		>
 			<nav className="h-[102px] flex items-center justify-between px-6 md:px-10">
 				{/* Logo and Brand */}
 				<div className="flex items-center gap-4">
-					<a href="/">
+					<a href="#top">
 						<img
 							src={Logo}
 							alt="Dencel Cosme Logo"
