@@ -9,7 +9,7 @@ export const AboutMe = () => {
 						alt="Graduation Picture"
 						className="w-[40%] lg:w-1/3 xl:w-1/4"
 					/>
-					<div className="text-white lg:w-1/2">
+					<div className="text-white w-72 lg:w-1/2">
 						<h1 className="text-white text-center lg:text-start mt-4 lg:mt-0 font-cairobold text-4xl lg:text-7xl">
 							About Me
 						</h1>
@@ -17,7 +17,7 @@ export const AboutMe = () => {
 							<div className="hidden lg:block text-secondary mt-10 mx-4">
 								______
 							</div>
-							<p className="w-full mt-4 lg:mt-10 text-md lg:text-3xl font-cairolight">
+							<p className="w-full mt-4 lg:mt-10 text-md lg:text-3xl font-cairoregular">
 								I'm an Information Technology graduate with a specialization in
 								Animation and Game Development. After completing two internships
 								in backend and full stack development, I realized my passion

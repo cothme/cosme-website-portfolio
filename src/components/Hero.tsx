@@ -12,7 +12,7 @@ export const Hero = () => {
 				<div className="flex flex-col justify-center item">
 					<div className="flex items-center pl-10">
 						<div className="hidden lg:block text-secondary mx-8">______</div>
-						<div>
+						<div className="w-72 lg:w-auto">
 							<h1 className="text-secondary text-start text-xl  lg:text-3xl leading-relaxed font-cairovariable">
 								Hi, my name is
 							</h1>
