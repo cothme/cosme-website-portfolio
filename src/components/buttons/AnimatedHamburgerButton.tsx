@@ -19,7 +19,7 @@ export const AnimatedHamburgerButton = () => {
 							x: "-50%",
 							y: "-50%",
 						}}
-						className="absolute h-1 w-10 bg-white"
+						className="absolute h-1 w-10 bg-tertiary"
 						variants={{
 							open: {
 								rotate: ["0deg", "0deg", "45deg"],
@@ -38,7 +38,7 @@ export const AnimatedHamburgerButton = () => {
 							x: "-50%",
 							y: "-50%",
 						}}
-						className="absolute h-1 w-10 bg-white"
+						className="absolute h-1 w-10 bg-tertiary"
 						variants={{
 							open: {
 								rotate: ["0deg", "0deg", "-45deg"],
@@ -55,7 +55,7 @@ export const AnimatedHamburgerButton = () => {
 							x: "-50%",
 							y: "50%",
 						}}
-						className="absolute h-1 w-5 bg-white"
+						className="absolute h-1 w-5 bg-tertiary"
 						variants={{
 							open: {
 								rotate: ["0deg", "0deg", "-45deg"],

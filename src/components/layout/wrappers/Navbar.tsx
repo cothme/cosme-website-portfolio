@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from "../../../assets/images/dg-logo.png";
+import Logo from "../../../assets/images/logos/logo-white.png";
 import { motion } from "framer-motion";
 import { AnimatedHamburgerButton } from "../../buttons/AnimatedHamburgerButton";
 import "../../css/Navbar.css";
@@ -29,15 +29,13 @@ export const Navbar = () => {
 						<img
 							src={Logo}
 							alt="Dencel Cosme Logo"
-							className="w-auto"
+							className="w-32"
 						/>
 					</a>
-
-					<span className="font-cairobold text-2xl">Dencel Cosme</span>
 				</div>
 
 				{/* Navigation Links */}
-				<ul className="hidden md:flex flex-row space-x-6 font-cairobold text-lg">
+				<ul className="hidden md:flex flex-row space-x-6 font-cairobold text-lg text-white">
 					<motion.a className="hover-border">Home</motion.a>
 					<motion.a className="hover-border">Work</motion.a>
 					<motion.a

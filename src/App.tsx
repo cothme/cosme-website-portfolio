@@ -5,7 +5,7 @@ import { Hero } from "./components/Hero";
 
 function App() {
 	useEffect(() => {
-		document.title = "Dencel Cosme";
+		document.title = "Dencel Cosme | Developer";
 	}, []);
 	return (
 		<>
