@@ -18,7 +18,7 @@ export const AboutMe = () => {
 							<div className="hidden lg:block text-secondary mt-10 mx-4">
 								______
 							</div>
-							<p className="w-full mt-4 lg:mt-10 text-md lg:text-3xl font-cairoregular">
+							<p className="w-full mt-4 lg:mt-10 text-md lg:text-2xl font-cairolight">
 								I'm an Information Technology graduate with a specialization in
 								Animation and Game Development. After completing two internships
 								in backend and full stack development, I realized my passion

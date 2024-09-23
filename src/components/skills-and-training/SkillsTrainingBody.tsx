@@ -11,21 +11,24 @@ export const SkillsTrainingBody = () => {
 				title="Skills and Training"
 				position="text-start"
 			/>
-			<div className="container mx-auto py-8">
+			<div className="container mx-auto pb-8">
 				{/* Section Title */}
 				<h2 className="text-4xl text-center text-white font-cairobold mb-8 lg:text-start">
 					Certifications
 				</h2>
-				<div className="grid lg:grid-cols-2 gap-10 p-4">
-					{certificates.map((certificate) => (
-						<Certificate
-							name={certificate.name}
-							image={certificate.image}
-							finished={certificate.finished}
-							credlyLink={certificate.credlyLink}
-						/>
-					))}
+				<div className="flex justify-center">
+					<div className="grid md:grid-cols-2 lg:grid-cols-2 gap-10 p-4">
+						{certificates.map((certificate) => (
+							<Certificate
+								name={certificate.name}
+								image={certificate.image}
+								finished={certificate.finished}
+								credlyLink={certificate.credlyLink}
+							/>
+						))}
+					</div>
 				</div>
+
 				<div className="mb-12">
 					<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6"></div>
 				</div>

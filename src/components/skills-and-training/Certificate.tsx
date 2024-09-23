@@ -20,7 +20,7 @@ export const Certificate = ({
 						className="w-28 lg:w-32"
 					/>
 					<div>
-						<p className="text-base">{name}</p>
+						<p className="text-base lg:text-xl">{name}</p>
 						{finished ? (
 							<p className="bg-blue-500 border border-blue-500 rounded-xl w-28 text-base text-center m-2">
 								Finished
