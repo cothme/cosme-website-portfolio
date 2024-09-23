@@ -13,7 +13,7 @@ export const Timeline: React.FC<TimelineProps> = ({
 			{position === "left" ? (
 				//if position is left render this
 				<div className="flex w-full mb-8">
-					<div className="flex flex-col items-end w-1/2 pr-6 text-right">
+					<div className="flex flex-col items-end w-1/2 pr-6 text-right ml-2">
 						<img
 							src={logo}
 							alt="HSI"
@@ -28,7 +28,7 @@ export const Timeline: React.FC<TimelineProps> = ({
 						<h3 className="text-md lg:text-xl text-secondary font-cairobold">
 							{role}
 						</h3>
-						<p className="text-sm lg:text-md text-gray-500 ml-2 lg:w-1/3">
+						<p className="text-sm lg:text-md text-gray-500 lg:w-1/3">
 							{description}
 						</p>
 					</div>
@@ -40,7 +40,7 @@ export const Timeline: React.FC<TimelineProps> = ({
 				<div className="flex w-full mb-8">
 					<div className="w-1/2"></div>
 					<div className="relative z-10 w-6 h-6 bg-extra rounded-full border-4 border-white"></div>
-					<div className="flex flex-col items-start w-1/2 pl-6 text-left">
+					<div className="flex flex-col items-start w-1/2 pl-6 text-left mr-2">
 						<img
 							src={logo}
 							alt="HSI"
@@ -55,7 +55,7 @@ export const Timeline: React.FC<TimelineProps> = ({
 						<h3 className="text-md lg:text-xl text-secondary font-cairobold">
 							{role}
 						</h3>
-						<p className="text-sm lg:text-md text-gray-500 mr-2 lg:w-1/3">
+						<p className="text-sm lg:text-md text-gray-500 lg:w-1/3">
 							{description}
 						</p>
 					</div>
