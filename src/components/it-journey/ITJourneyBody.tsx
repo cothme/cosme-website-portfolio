@@ -6,7 +6,7 @@ export const ITJourneyBody = () => {
 	return (
 		<>
 			<Title title="My IT Journey" />
-			<div className="relative flex flex-col items-center lg:mb-64">
+			<div className="relative flex flex-col items-center mb-48 lg:mb-64">
 				{/* Vertical Line */}
 				<div className="absolute h-full w-1 bg-gray-300 left-1/2 transform -translate-x-1/2 top-6"></div>
 				{timeline.map((index) => (
