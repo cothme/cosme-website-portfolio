@@ -19,7 +19,9 @@ export const Navbar = () => {
 	return (
 		<header
 			className={`sticky ${
-				navbar ? "bg-primary bg-opacity-50 backdrop-blur-2xl" : "bg-opacity-10"
+				navbar
+					? "bg-primary bg-opacity-50 border border-b-secondary border-t-0 border-l-0 border-r-0 backdrop-blur-[16px]"
+					: "bg-opacity-10"
 			} top-0 z-50 bg-primary text-tertiary transition duration-300`}
 		>
 			<nav className="h-[102px] flex items-center justify-between px-6 md:px-10">
