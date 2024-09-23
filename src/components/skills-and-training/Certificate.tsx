@@ -22,16 +22,16 @@ export const Certificate = ({
 					<div>
 						<p className="text-base lg:text-xl">{name}</p>
 						{finished ? (
-							<p className="bg-blue-500 border border-blue-500 rounded-xl w-28 text-base text-center m-2">
-								Finished
+							<p className="bg-primary border-2 border-secondary rounded-xl w-28 text-base text-center m-2">
+								Completed
 							</p>
 						) : (
-							<p className="bg-green-500 border border-green-500 rounded-xl w-32 text-base text-center m-2 font-cairolight">
+							<p className="bg-extra border-2 border-extra rounded-xl w-32 text-base text-center m-2 font-cairolight">
 								On going
 							</p>
 						)}
 						{finished && (
-							<p className="bg-yellow-600 border border-yellow-600 rounded-xl w-28 text-base text-center m-2">
+							<p className="bg-secondary border border-secondary text-black rounded-xl w-28 text-base text-center m-2">
 								<a
 									target="_blank"
 									href={credlyLink}
