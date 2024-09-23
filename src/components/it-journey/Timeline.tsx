@@ -28,7 +28,7 @@ export const Timeline: React.FC<TimelineProps> = ({
 						<h3 className="text-md lg:text-xl text-secondary font-cairobold">
 							{role}
 						</h3>
-						<p className="text-sm lg:text-md text-gray-500 lg:w-1/3">
+						<p className="text-sm lg:text-md text-gray-500 ml-2 lg:w-1/3">
 							{description}
 						</p>
 					</div>
@@ -55,7 +55,7 @@ export const Timeline: React.FC<TimelineProps> = ({
 						<h3 className="text-md lg:text-xl text-secondary font-cairobold">
 							{role}
 						</h3>
-						<p className="text-sm lg:text-md text-gray-500 lg:w-1/3">
+						<p className="text-sm lg:text-md text-gray-500 mr-2 lg:w-1/3">
 							{description}
 						</p>
 					</div>
