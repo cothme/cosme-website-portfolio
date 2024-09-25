@@ -44,16 +44,29 @@ export const Navbar = () => {
 					>
 						Home
 					</motion.a>
-					<motion.a className="hover-border">Work</motion.a>
 					<motion.a
-						onClick={() =>
-							document
-								.getElementById("last")
-								?.scrollIntoView({ behavior: "smooth" })
-						}
+						href="#it-journey"
+						className="hover-border"
+					>
+						My IT Jouney
+					</motion.a>
+					<motion.a
+						href="#about-me"
 						className="hover-border"
 					>
 						About
+					</motion.a>
+					<motion.a
+						href="#skills-and-training"
+						className="hover-border"
+					>
+						Skills & Training
+					</motion.a>
+					<motion.a
+						href="#projects"
+						className="hover-border"
+					>
+						Projects
 					</motion.a>
 				</ul>
 				<div className="block lg:hidden md:hidden">

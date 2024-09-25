@@ -9,14 +9,16 @@ export const SkillsTrainingBody = () => {
 	return (
 		<>
 			<Reveal
-				xStart={75}
-				xEnd={0}
+				yStart={75}
+				yEnd={0}
 				duration={1}
 			>
-				<Title
-					title="Skills and Training"
-					position="text-start"
-				/>
+				<div id="skills-and-training">
+					<Title
+						title="Skills and Training"
+						position="text-start"
+					/>
+				</div>
 			</Reveal>
 
 			<div className="container mx-auto pb-8">
@@ -51,8 +53,8 @@ export const SkillsTrainingBody = () => {
 					<div className="w-auto text-2xl">
 						Technologies
 						<Reveal
-							xStart={-75}
-							xEnd={0}
+							yStart={-75}
+							yEnd={0}
 							duration={1}
 						>
 							<div className="grid grid-cols-3 gap-14 mt-12">
@@ -87,8 +89,8 @@ export const SkillsTrainingBody = () => {
 					<div>
 						<span className="text-2xl">Tools</span>
 						<Reveal
-							xStart={75}
-							xEnd={0}
+							yStart={75}
+							yEnd={0}
 							duration={1}
 						>
 							<div className="grid grid-cols-3 gap-14 mt-12">

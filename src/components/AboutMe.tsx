@@ -3,7 +3,10 @@ import { Reveal } from "./Reveal";
 export const AboutMe = () => {
 	return (
 		<>
-			<div className="flex flex-row justify-center mb-48 lg:mb-64">
+			<div
+				id="about-me"
+				className="flex flex-row justify-center mb-48 lg:mb-64"
+			>
 				<div className="flex items-center flex-col md:flex-row lg:flex-row justify-center space-x-11">
 					<Reveal
 						yStart={75}
@@ -15,7 +18,7 @@ export const AboutMe = () => {
 						<img
 							src={GradPic}
 							alt="Graduation Picture"
-							className="w-[75%] lg:w-full md:w-full"
+							className="lg:p-0 p-12"
 						/>
 					</Reveal>
 
@@ -36,8 +39,8 @@ export const AboutMe = () => {
 								______
 							</div>
 							<Reveal
-								xStart={75}
-								xEnd={0}
+								yStart={75}
+								yEnd={0}
 								duration={1}
 							>
 								<p className="w-full mt-4 lg:mt-10 text-md lg:text-2xl font-cairolight">

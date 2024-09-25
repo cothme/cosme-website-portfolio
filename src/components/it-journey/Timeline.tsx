@@ -12,7 +12,10 @@ export const Timeline: React.FC<TimelineProps> = ({
 		<>
 			{position === "left" ? (
 				//if position is left render this
-				<div className="flex w-full mb-8">
+				<div
+					id="it-journey"
+					className="flex w-full mb-8"
+				>
 					<div className="flex flex-col items-end w-1/2 pr-6 text-right">
 						<img
 							src={logo}

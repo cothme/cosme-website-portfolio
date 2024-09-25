@@ -50,7 +50,10 @@ const ProjectGallery = () => {
 
 	return (
 		<>
-			<div className="w-full bg-opacity-20 backdrop-blur-3xl z-10">
+			<div
+				id="projects"
+				className="w-full bg-opacity-20 backdrop-blur-3xl z-10"
+			>
 				<div className="flex flex-col lg:flex-row justify-center space-x-6 w-full p-12">
 					<div className="flex flex-col items-center">
 						<img
