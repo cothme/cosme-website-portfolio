@@ -5,7 +5,7 @@ import Lvl2 from "../assets/images/projects-images/lvl3_env.jpg";
 import LinkLearn1 from "../assets/images/projects-images/linklearn_1.png";
 import LinkLearn2 from "../assets/images/projects-images/linklearn_2.png";
 import LinkLearn3 from "../assets/images/projects-images/linklearn_3.png";
-import Mind1 from "../assets/images/projects-images/mind_1.png";
+import Mind1 from "../assets/images/projects-images/mind_1.jpg";
 import Mind2 from "../assets/images/projects-images/mind_2.png";
 import Mind3 from "../assets/images/projects-images/mind_3.png";
 import Mind4 from "../assets/images/projects-images/mind_4.png";
