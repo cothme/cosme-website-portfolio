@@ -13,7 +13,7 @@ export const SkillsTrainingBody = () => {
 			/>
 			<div className="container mx-auto pb-8">
 				{/* Section Title */}
-				<h2 className="text-4xl text-center text-white font-cairobold mb-8 lg:text-start">
+				<h2 className="text-2xl text-center text-white font-cairobold mb-8 lg:text-start">
 					Certifications
 				</h2>
 				<div className="flex justify-center">
@@ -34,7 +34,7 @@ export const SkillsTrainingBody = () => {
 					<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6"></div>
 				</div>
 				<div className="p-12 lg:p-0 justify-between flex flex-col space-y-14 lg:space-y-0 lg:flex-row text-white text-4xl font-cairobold">
-					<div className="w-auto">
+					<div className="w-auto text-2xl">
 						Technologies
 						<div className="grid grid-cols-3 gap-14 mt-12">
 							{technologies.map((tech, index) => (
@@ -47,7 +47,7 @@ export const SkillsTrainingBody = () => {
 						</div>
 					</div>
 					<div>
-						Frameworks
+						<span className="text-2xl">Frameworks</span>
 						<div className="grid grid-cols-3 gap-14 mt-12">
 							{frameworks.map((framework, index) => (
 								<Logo
@@ -59,7 +59,7 @@ export const SkillsTrainingBody = () => {
 						</div>
 					</div>
 					<div>
-						Tools
+						<span className="text-2xl">Tools</span>
 						<div className="grid grid-cols-3 gap-14 mt-12">
 							{tools.map((tool, index) => (
 								<Logo
