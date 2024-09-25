@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 import { projects } from "../../types/projects";
-import LinkLearn1 from "../../assets/images/projects-images/linklearn_1.png";
+
 import {
 	AnimatedPreviousButton,
 	AnimatedNextButton,
@@ -11,8 +11,8 @@ import ImageView from "./ImageView";
 const ProjectGallery = () => {
 	const [projectIndex, setProjectIndex] = useState(0);
 	const [currentIndex, setCurrentIndex] = useState(0);
-	const [isModalOpen, setIsModalOpen] = useState(false); // State for modal
-	const [fullScreenImage, setFullScreenImage] = useState(""); // State to hold the full screen image URL
+	const [isModalOpen, setIsModalOpen] = useState(false);
+	const [fullScreenImage, setFullScreenImage] = useState("");
 
 	const images = useMemo(
 		() => Object.values(projects[projectIndex].src),
@@ -39,13 +39,13 @@ const ProjectGallery = () => {
 	};
 
 	const openFullScreenImage = (imageUrl: string) => {
-		setFullScreenImage(imageUrl); // Set the full screen image
-		setIsModalOpen(true); // Open the modal
+		setFullScreenImage(imageUrl);
+		setIsModalOpen(true);
 	};
 
 	const closeFullScreenImage = () => {
-		setIsModalOpen(false); // Close the modal
-		setFullScreenImage(""); // Clear the image
+		setIsModalOpen(false);
+		setFullScreenImage("");
 	};
 
 	return (
@@ -100,7 +100,6 @@ const ProjectGallery = () => {
 				</div>
 			</div>
 
-			{/* Full-Screen Modal */}
 			<ImageView
 				isOpen={isModalOpen}
 				imageUrl={fullScreenImage}
