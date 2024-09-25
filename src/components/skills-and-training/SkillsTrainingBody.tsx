@@ -20,6 +20,7 @@ export const SkillsTrainingBody = () => {
 					<div className="grid md:grid-cols-2 lg:grid-cols-2 gap-10 p-4">
 						{certificates.map((certificate) => (
 							<Certificate
+								key={certificate.name}
 								name={certificate.name}
 								image={certificate.image}
 								finished={certificate.finished}
