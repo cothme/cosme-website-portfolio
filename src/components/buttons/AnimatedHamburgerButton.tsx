@@ -1,14 +1,20 @@
 import { motion, MotionConfig } from "framer-motion";
 import { useState } from "react";
 
-export const AnimatedHamburgerButton = () => {
-	const [active, setActive] = useState(false);
+interface AnimatedHamburgerButtonProps {
+	active: boolean;
+	setActive: (active: boolean) => void;
+}
+export const AnimatedHamburgerButton = ({
+	active,
+	setActive,
+}: AnimatedHamburgerButtonProps) => {
 	return (
 		<>
 			<MotionConfig transition={{ duration: 0.3, ease: "easeInOut" }}>
 				<motion.button
 					initial={false}
-					onClick={() => setActive((pv) => !pv)}
+					onClick={() => setActive(!active)}
 					className="relative h-20 w-20 rounded-full transition-colors "
 					animate={active ? "open" : "close"}
 				>

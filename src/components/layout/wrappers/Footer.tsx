@@ -5,14 +5,14 @@ export const Footer = () => {
 	return (
 		<div
 			className="bg-primary h-56 flex flex-col md:flex-col lg:flex-row items-center 
-		justify-around space-x-6 px-10 border-t-2 border-secondary"
+		justify-around space-x-6 p-10 border-t-2 border-secondary"
 		>
-			<p className="text-white text-xl mt-4 lg:mt-0 lg:w-1/6 font-cairolight">
-				Motivation gets you going, but discipline keeps you growing. {<br />}{" "}
-				<div className="text-lg font-cairolight text-end m-4">
+			<div className="text-white text-xl lg:w-1/6 font-cairolight">
+				Motivation gets you going, but discipline keeps you growing. <br />
+				<span className="text-lg font-cairolight text-end m-4 block">
 					- John C. Maxwell
-				</div>
-			</p>
+				</span>
+			</div>
 			<div className="flex flex-col md:flex-row lg:flex-row gap-14 lg:gap-24 text-white">
 				<div className="text-tertiary">
 					<p className="text-2xl mb-4 font-cairobold">Site Map</p>
@@ -72,7 +72,7 @@ export const Footer = () => {
 					</ul>
 				</div>
 			</div>
-			<div className="text-tertiary mt-8 lg:mt-0 font-cairolight text-md lg:text-xl flex flex-col text-center">
+			<div className="text-tertiary mt-8 lg:mt-0 pb-4 font-cairolight text-md lg:text-xl flex flex-col text-center">
 				<div>Made with ❤️ by Dencel Migui Cosme</div>
 				<div> © 2024 Cosme. All Rights Reserved.</div>
 			</div>

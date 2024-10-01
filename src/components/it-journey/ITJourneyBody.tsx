@@ -12,12 +12,12 @@ export const ITJourneyBody = () => {
 				<div className="absolute h-full w-1 bg-gray-300 left-1/2 transform -translate-x-1/2 top-6"></div>
 				{timeline.map((index) => (
 					<Reveal
+						key={index.company_name}
 						xStart={index.position === "left" ? -7 : 7}
 						xEnd={0}
 						duration={1.2}
 					>
 						<Timeline
-							key={index.company_name}
 							logo={index.logo}
 							date={index.date}
 							company_name={index.company_name}
