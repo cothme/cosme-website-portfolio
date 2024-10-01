@@ -8,10 +8,12 @@ export const timeline = [
 		company_name: "FEU Institute of Technology",
 		role: "IT Student",
 		description: `
-        Successfully contributed to the development of REST APIs for the company's projects, 
-        optimizing CRUD functionalities using the Laravel framework. 
-        Assigned as an L1 technical support for a mobile app, 
-        handling user reviews, addressing user complaints, and identifying bugs in the app.
+        The starting point of my IT journey introduced me to the fundamentals of programming and 
+		networking. During this time, I developed projects like a simple game using Unity 
+		and built web applications using HTML, CSS, JavaScript, and PHP. 
+		I also gained experience in 3D modeling and animation with Autodesk Maya, 
+		as well as in networking and database management.
+		
         `,
 		position: "left",
 	},
@@ -21,10 +23,12 @@ export const timeline = [
 		company_name: "Highly Succeed Inc.",
 		role: "Web Developer Intern",
 		description: `
-        Successfully contributed to the development of REST APIs for the company's projects, 
-        optimizing CRUD functionalities using the Laravel framework. 
-        Assigned as an L1 technical support for a mobile app, 
-        handling user reviews, addressing user complaints, and identifying bugs in the app.
+        At my first company, as part of my Internship 1 requirement, I gained hands-on experience 
+		with RESTful APIs and learned how to build them using Laravel. My primary role 
+		involved developing CRUD functionalities for the company's projects, where I also 
+		optimized application performance. Additionally, I was part of an L1 support team 
+		for a mobile app, responsible for handling user reviews, addressing complaints, 
+		and identifying bugs.
         `,
 		position: "right",
 	},
@@ -34,10 +38,15 @@ export const timeline = [
 		company_name: "GlobalTek BPO Inc.",
 		role: "Research and Development Intern",
 		description: `
-        Successfully contributed to the development of REST APIs for the company's projects, 
-        optimizing CRUD functionalities using the Laravel framework. 
-        Assigned as an L1 technical support for a mobile app, 
-        handling user reviews, addressing user complaints, and identifying bugs in the app.
+        At my second company for Internship 2, I worked the night shift as a Research and Development 
+		Intern. My main project was developing a Learning Management System (LMS) using the 
+		MERN stack, featuring a user-friendly interface with Google Single Sign-On (SSO), a 
+		RESTful API, and Stripe integration for payments. I also built an admin dashboard for 
+		managing courses and users. In addition, I researched Optical Character Recognition (OCR) 
+		technology and successfully implemented it in one of the company's projects. 
+		I was also responsible for researching the Vitest testing framework for future use 
+		in the company's projects.
+		
         `,
 		position: "left",
 	},

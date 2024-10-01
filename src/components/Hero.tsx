@@ -6,6 +6,7 @@ import { PiReadCvLogoFill } from "react-icons/pi";
 import CV from "../assets/Cosme_CV.pdf";
 import "./css/Hero.css";
 import { Reveal } from "./Reveal";
+import { motion } from "framer-motion";
 export const Hero = () => {
 	return (
 		<>
@@ -48,9 +49,15 @@ export const Hero = () => {
 								duration={1.5}
 							>
 								<p className="text-lg text-start lg:text-2xl max-w-lg font-cairoregular">
-									A highly motivated Information Technology graduate with
-									practical experience in web development, aspiring to become a
-									full stack developer.
+									Aspiring{" "}
+									<motion.span
+										whileHover={{ color: "#33E4EA" }}
+										className="hover:cursor-pointer"
+									>
+										Full Stack Developer
+									</motion.span>
+									, passionate about building responsive, user-friendly web
+									applications and solving complex problems.
 								</p>
 							</Reveal>
 						</div>
@@ -68,7 +75,7 @@ export const Hero = () => {
 								<Reveal
 									rotateHidden={180}
 									rotateVisible={0}
-									duration={2.5}
+									duration={2}
 								>
 									<a
 										href="https://github.com/cothme"
@@ -96,7 +103,7 @@ export const Hero = () => {
 								<Reveal
 									rotateHidden={180}
 									rotateVisible={0}
-									duration={1}
+									duration={2}
 								>
 									<a
 										href="https://www.linkedin.com/in/migui-cosme/"
@@ -110,7 +117,7 @@ export const Hero = () => {
 								<Reveal
 									rotateHidden={180}
 									rotateVisible={0}
-									duration={1}
+									duration={2}
 								>
 									<a
 										data-tooltip-id="my-tooltip"

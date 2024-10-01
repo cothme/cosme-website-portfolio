@@ -16,21 +16,26 @@ export const projects = [
 	{
 		title: "Abducted: A Mind's Nightmare",
 		src: { PromoImg, GamePoster, Lvl1, Lvl2 },
-		description: `A 3D single-player survival-horror game for PC that offers an 
-		immersive experience as the player navigates a mysterious spaceship. 
-		The gameplay revolves around the character Alex, who has been abducted and must 
-		make his way through a series of levels while avoiding traps, 52 solving puzzles, 
-		and battling enemies.`,
+		description: `We developed a 3D single-player survival-horror game for PC that provides an 
+		immersive experience as players navigate a mysterious spaceship, created alongside four 
+		team members. This project served as our capstone requirement in college. My role involved 
+		writing the entire codebase, which includes AI, player movement, level design, and game 
+		mechanics. I implemented a Singleton design pattern to manage the game's state and utilized 
+		a Finite State Machine to control the AI's behavior.`,
 		languages: ["C#", "Unity", "Autodesk Maya"],
+		link: "",
 		color1: "#212529",
 		color2: "#C63D65",
 	},
 	{
 		title: "Abducted: A Mind's Nightmare Website",
 		src: { Mind1, Mind2, Mind3, Mind4 },
-		description: `The promotional website for the game that includes a gallery, 
-		and an about section. Additionally, it features a community forum where users 
-		can initiate discussions on various topics and respond to other users' posts.`,
+		description: `A website that I created to promote our game this is also a 
+		part of requirement for our capstone, which features a user-friendly
+		interface and showcases the game's key features. The site also includes a community section
+		where users can discuss the game and share their experiences. I designed the website to be
+		responsive and accessible on all devices. The site is built using HTML, CSS, JQuery for the 
+		front-end, and PHP and MySQL for the back-end.`,
 		languages: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "JQuery"],
 		color1: "#FFFFFF",
 		color2: "#C63D65",
@@ -59,7 +64,10 @@ export const projects = [
 	{
 		title: "Personal Website",
 		src: { Personal1, Personal2, Personal3 },
-		description: "A vibrant lemon, full of zest and freshness.",
+		description: `I created a personal website to promote my skills and showcase my projects. 
+		The site features a responsive design and highlights my portfolio, resume, and contact 
+		information. This project allowed me to practice my frontend skills using ReactJS and 
+		experiment with new technologies such as Framer Motion.`,
 		languages: ["ReactJS", "Framer Motion", "TailwindCSS", "TypeScript"],
 		color1: "#33E4EA",
 		color2: "#090B1A",

@@ -22,7 +22,7 @@ export const Timeline: React.FC<TimelineProps> = ({
 							alt="HSI"
 							className="w-24"
 						/>
-						<h3 className="text-xs lg:text-sm text-white font-cairolight ml-2">
+						<h3 className="text-sm lg:text-sm text-white font-cairolight ml-2">
 							{date}
 						</h3>
 						<h3 className="text-xl lg:text-3xl text-white font-cairobold ml-2">
@@ -31,7 +31,7 @@ export const Timeline: React.FC<TimelineProps> = ({
 						<h3 className="text-md lg:text-xl text-secondary font-cairobold ml-2">
 							{role}
 						</h3>
-						<p className="text-sm lg:text-md text-gray-500 ml-2 lg:w-1/3">
+						<p className="text-sm lg:text-lg text-gray-500 ml-2 lg:w-1/2">
 							{description}
 						</p>
 					</div>
@@ -58,7 +58,7 @@ export const Timeline: React.FC<TimelineProps> = ({
 						<h3 className="text-md lg:text-xl text-secondary font-cairobold mr-2">
 							{role}
 						</h3>
-						<p className="text-sm lg:text-md text-gray-500 mr-2 lg:w-1/3">
+						<p className="text-sm lg:text-lg text-gray-500 mr-2 lg:w-1/2">
 							{description}
 						</p>
 					</div>

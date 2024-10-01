@@ -44,16 +44,16 @@ export const AboutMe = () => {
 								duration={1}
 							>
 								<p className="w-full mt-4 lg:mt-10 text-md lg:text-2xl font-cairolight">
-									I'm an Information Technology graduate with a specialization
-									in Animation and Game Development. After completing two
-									internships in backend and full stack development, I realized
-									my passion lies in web development. Skilled in technologies
-									like the MERN stack, Laravel, and RESTful APIs, I thrive in
-									building dynamic, user-friendly web applications. I'm now
-									seeking opportunities to contribute my skills to innovative
-									projects in the web development field. Outside of tech, I
-									enjoy exploring new gaming technologies and spending time
-									outdoors.
+									I'm an Information Technology graduate with a focus on
+									Animation and Game Development. Through two internships—one in
+									backend development and another in full stack—I discovered my
+									true passion for web development.
+									<br /> <br /> Skilled in the MERN stack, Laravel, and building
+									RESTful APIs, I enjoy creating dynamic, user-friendly web
+									applications. I'm now eager to contribute my expertise to
+									innovative projects in the web development space.
+									<br /> <br /> When I'm not coding, I like to explore the
+									latest in gaming technology and spend time outdoors.
 								</p>
 							</Reveal>
 						</div>
