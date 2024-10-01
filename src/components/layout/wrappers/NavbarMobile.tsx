@@ -1,12 +1,10 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
 
 interface NavbarMobileProps {
 	show: boolean;
 	setShow: (show: boolean) => void;
 }
 export const NavbarMobile = ({ show, setShow }: NavbarMobileProps) => {
-	const [showNav, setShowNav] = useState(false);
 	const toggleShow = () => {
 		setShow(false);
 	};

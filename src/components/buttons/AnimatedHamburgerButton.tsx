@@ -1,6 +1,4 @@
 import { motion, MotionConfig } from "framer-motion";
-import { useState } from "react";
-
 interface AnimatedHamburgerButtonProps {
 	active: boolean;
 	setActive: (active: boolean) => void;
