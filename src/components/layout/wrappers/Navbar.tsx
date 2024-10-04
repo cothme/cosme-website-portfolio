@@ -2,10 +2,15 @@ import { useState } from "react";
 import Logo from "../../../assets/images/logos/logo-white.png";
 import { motion } from "framer-motion";
 import { AnimatedHamburgerButton } from "../../buttons/AnimatedHamburgerButton";
+import { NavbarMobile } from "./NavbarMobile";
 import "../../css/Navbar.css";
 export const Navbar = () => {
 	const [navbar, setNavbar] = useState(false);
+	const [show, setShow] = useState(false);
 
+	const toggleShow = () => {
+		setShow(!show);
+	};
 	const changeNavbackground = () => {
 		if (window.scrollY >= 80) {
 			setNavbar(true);
@@ -69,10 +74,20 @@ export const Navbar = () => {
 						Projects
 					</motion.a>
 				</ul>
-				<div className="block lg:hidden md:hidden">
-					<AnimatedHamburgerButton />
+				<div
+					onClick={toggleShow}
+					className="block lg:hidden md:hidden"
+				>
+					<AnimatedHamburgerButton
+						active={show}
+						setActive={setShow}
+					/>
 				</div>
 			</nav>
+			<NavbarMobile
+				show={show}
+				setShow={toggleShow}
+			/>
 		</header>
 	);
 };
