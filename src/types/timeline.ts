@@ -1,6 +1,7 @@
 import HSI from "../assets/images/logos/hsi-logo.png";
 import GlobalTek from "../assets/images/logos/globaltek-logo.png";
 import FEUTech from "../assets/images/logos/feutech-logo.png";
+import TrendMicro from "../assets/images/logos/trend_micro-logo.png";
 export const timeline = [
 	{
 		logo: FEUTech,
@@ -49,6 +50,16 @@ export const timeline = [
 		
         `,
 		position: "left",
+	},
+	{
+		logo: TrendMicro,
+		date: "November 2024 - Present",
+		company_name: "Trend Micro Inc.",
+		role: "DevOps Platform Engineer",
+		description: `
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien
+        `,
+		position: "right",
 	},
 ];
 

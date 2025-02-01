@@ -3,7 +3,7 @@ import Cisco from "../../assets/images/logos/cisco-logo.png";
 import MayaCert from "../../assets/images/logos/maya-cert.png";
 import Database from "../../assets/images/logos/database-logo.png";
 export const certificates = [
-	{ name: "Computer System Servicing NC II", image: TESDA, finished: false },
+	{ name: "Computer System Servicing NC II", image: TESDA, finished: true },
 	{
 		name: "CCNA: Switching, Routing, and Wireless Essentials",
 		image: Cisco,

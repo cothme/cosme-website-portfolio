@@ -36,7 +36,7 @@ export const Certificate = ({
 									target="_blank"
 									href={credlyLink}
 								>
-									Credly Link
+									Link
 								</a>
 							</p>
 						)}
